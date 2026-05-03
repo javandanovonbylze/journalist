@@ -1,6 +1,6 @@
 [versions]
 column = "2.2.4"
-category = "2.2.2"
+category = "3.4.3"
 
 [libraries]
 column = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "column" }
